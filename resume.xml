@@ -36,18 +36,18 @@
     </skillset>
 
     <skillset>
-      <title>Web Applications</title>
-      <skill>XHTML/CSS</skill>
-      <skill>Struts/Tiles</skill>
-      <skill>Velocity</skill>
-    </skillset>
-
-    <skillset>
-      <title>Java</title>
+      <title>Java (7+ years)</title>
       <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
       <skill>Jakarta Commons</skill>
       <skill>log4j</skill>
       <skill>Jini</skill>
+    </skillset>
+
+    <skillset>
+      <title>Web Applications</title>
+      <skill>XHTML/CSS</skill>
+      <skill>Struts/Tiles</skill>
+      <skill>Velocity</skill>
     </skillset>
 
     <skillset>
@@ -136,8 +136,8 @@
 	</to>
       </period>
       <description>
-        Responsible for web architecture, mentoring, best practices,
-        and development processes.
+        Responsible for the establishment of effective web
+        infrastructure and development best practices.
       </description>
     </job>
 
@@ -158,7 +158,7 @@
 	</to>
       </period>
       <description>
-        Co-leading a team responsible for the reengineering of
+        Co-led a team responsible for the reengineering of
         existing mainframe processes into a more automated and
         distributed web-based framework to support the delivery of
         customized credit marketing data.  Initial prototype allowing
