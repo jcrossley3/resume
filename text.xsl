@@ -12,16 +12,16 @@
 
   <xsl:template match="personal">
     <xsl:value-of select="name/first"/> <xsl:value-of select="name/last"/>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:text>&#xA;</xsl:text>
     <xsl:value-of select="address/street"/>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:text>&#xA;</xsl:text>
     <xsl:value-of select="address/city"/>, <xsl:value-of select="address/state"/>, <xsl:value-of select="address/zip"/>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:text>&#xA;</xsl:text>
     <xsl:value-of select="phone"/>
   </xsl:template>
 
   <xsl:template match="objective">
-    <xsl:text>&#10;&#10;Objective:  </xsl:text>
+    <xsl:text>&#xA;&#xA;Objective:  </xsl:text>
     <xsl:value-of select="normalize-space()"/>
   </xsl:template>
 
