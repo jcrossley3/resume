@@ -138,6 +138,22 @@
         infrastructure, development best practices, and knowledge
         transfer through collaboration, mentoring, and training.
       </description>
+      <projects>
+
+	<project>
+	  Led the design and development of middleware to facilitate
+	  the exchange of data with 3rd-party web sites.  The service
+	  presented a very simple API enabling internal Java clients
+	  to access vendor or customer databases exposed via any XML
+	  interface, including SOAP and XML-RPC. Encapsulating the
+	  transformations of the clients' requests and subsequent
+	  responses using XSLT stylesheets, the project utilized many
+	  best-of-breed open source tools including HttpClient, JTidy,
+	  and dom4j.
+	</project>
+        
+      </projects>
+      
     </job>
 
     <job>
