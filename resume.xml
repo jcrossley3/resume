@@ -26,7 +26,7 @@
   
   <skills>
     <skillset>
-      <title>Object-Oriented Design</title>
+      <title>Object-Oriented Development</title>
       <skill>Design Patterns (both GoF and J2EE)</skill>
       <skill>Unified Modeling Language (UML)</skill>
       <skill>Use Cases</skill>
@@ -106,7 +106,9 @@
       <title>Miscellaneous</title>
       <skill>XEmacs</skill>
       <skill>Python/Jython</skill>
+      <skill>Perl</skill>
       <skill>Grinder</skill>
+      <skill>ssh/rsync</skill>
       <skill>Swiki</skill>
       <skill>VoiceXML</skill>
       <skill>CORBA</skill>
@@ -136,7 +138,10 @@
       <description>
         Responsible for the establishment of effective web
         infrastructure, development best practices, and knowledge
-        transfer through collaboration, mentoring, and training.
+        transfer through research, collaboration, mentoring, and
+        training.  Introduced and encouraged the use of collaborative
+        tools such as Wiki, Maven, Perforce and Anthill.
+
       </description>
       <projects>
 
@@ -144,12 +149,37 @@
 	  Led the design and development of middleware to facilitate
 	  the exchange of data with 3rd-party web sites.  The service
 	  presented a very simple API enabling internal Java clients
-	  to access vendor or customer databases exposed via any XML
-	  interface, including SOAP and XML-RPC. Encapsulating the
-	  transformations of the clients' requests and subsequent
-	  responses using XSLT stylesheets, the project utilized many
-	  best-of-breed open source tools including HttpClient, JTidy,
-	  and dom4j.
+	  access to vendor or customer databases exposed via any
+	  text-based HTTP interface, including SOAP, XML-RPC, and
+	  HTML. Encapsulating the transformations of the clients'
+	  requests and subsequent responses using XSLT stylesheets,
+	  the project utilizes many best-of-breed open source tools
+	  including HttpClient, JTidy, and dom4j.
+	</project>
+
+	<project>
+          Developed a robust application of common Linux tools (ssh,
+          rsync, at) to automate scheduled software distribution,
+          configuration changes and production deployments to various
+          secure networks of Linux machines.
+	</project>
+        
+        <project>
+          Implemented a DMZ-style web architecture for hosting
+          customer voice applications.  Used clustered Apache nodes as
+          SSL accelerators and reverse proxies to a JBoss/Jetty app
+          server cluster, providing secure, efficient access to
+          various resources, including VoiceGenie VoiceXML gateways
+          and MySQL databases.
+        </project>
+        
+	<project>
+          Championed the conversion of internal source code control
+          system from Starteam to Perforce after extensive evaluation
+          of multiple SCM products.  Led the effort to port the
+          existing codebase and established administrative policies
+          and procedures resulting in a more streamlined project
+          lifecycle and minimal dependence on sys-admin personnel.
 	</project>
         
       </projects>
@@ -201,7 +231,7 @@
 	</to>
       </period>
       <description>
-	Responsibilities include the design, development and
+	Responsibilities included the design, development and
 	deployment of large-scale, distributed systems, most to serve
 	the special needs of inbound call centers; the evaluation of
 	new technologies resulting in recommendations relevant to our
@@ -438,11 +468,12 @@
     <!--     </degree> -->
 
     <note>
-      Supplemental education includes 5 full-time quarters
-      (6/90-8/91) of Computer Science courses at Southern
-      Polytechnic University in Marietta, GA, as well as 3 full-time
-      quarters (8/91-3/92) of graduate-level Computer Science
-      courses at Georgia Tech.
+      Supplemental education includes 5 full-time quarters (6/90-8/91)
+      of Computer Science courses at Southern Polytechnic University
+      in Marietta, GA, as well as 3 full-time quarters (8/91-3/92) of
+      graduate-level Computer Science courses at Georgia Tech
+      emphasizing the practical application of Artificial
+      Intelligence.
     </note>
   </education>	
 
