@@ -148,13 +148,13 @@
 	<project>
 	  Led the design and development of middleware to facilitate
 	  the exchange of data with 3rd-party web sites.  The service
-	  presented a very simple API enabling internal Java clients
-	  access to vendor or customer databases exposed via any
-	  text-based HTTP interface, including SOAP, XML-RPC, and
-	  HTML. Encapsulating the transformations of the clients'
-	  requests and subsequent responses using XSLT stylesheets,
-	  the project utilizes many best-of-breed open source tools
-	  including HttpClient, JTidy, and dom4j.
+	  provided a very simple Java API enabling access to vendor or
+	  customer databases exposed via any text-based HTTP
+	  interface, including SOAP, XML-RPC, and HTML. Encapsulating
+	  the transformations of the clients' requests and subsequent
+	  responses using XSLT stylesheets, the project utilizes many
+	  best-of-breed open source tools including HttpClient, JTidy,
+	  and dom4j.
 	</project>
 
 	<project>
@@ -170,7 +170,8 @@
           SSL accelerators and reverse proxies to a JBoss/Jetty app
           server cluster, providing secure, efficient access to
           various resources, including VoiceGenie VoiceXML gateways
-          and MySQL databases.
+          and MySQL databases.  Proved the performance using the
+          Grinder load-testing framework.
         </project>
         
 	<project>
