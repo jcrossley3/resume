@@ -17,7 +17,7 @@
       </head>
       <body bgcolor="white">
 	<center>
-	  <h6><a href="resume.doc">MS-Word version</a></h6>
+	  <h6><a href="resume.pdf">PDF</a>&nbsp;<a href="resume.doc">MS-Word</a></h6>
 	  <table width="640" border="0" cellpadding="5" cellspacing="5">  
 	    <xsl:apply-templates/>
 	  </table>
