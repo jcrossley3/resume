@@ -1,0 +1,337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>Resume</title>
+  </head>
+
+  <body bgcolor="white">
+    <center>
+      <h6><a href="resume.doc">MS-Word version</a></h6>
+
+      <table cellspacing="5" cellpadding="5" border="0" width="640">
+        <tr>
+          <td colspan="2">
+            <table width="640">
+              <tr>
+                <td align="center">
+                  <h2>Jim&nbsp;Crossley</h2>
+                </td>
+
+                <td align="right">11455 West Road,&nbsp; Roswell,&nbsp;
+                Georgia&nbsp; 30075<br />
+                770.518.4721<br />
+                 <a href="mailto:jim@crossleys.org">jim@crossleys.org</a>
+                <br />
+                 <a href="http://www.crossleys.org/~jim">http://www.crossleys.org/~jim</a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#cccccc" valign="top" width="100"><b>Objective</b></td>
+
+          <td valign="top" align="left">
+	    To develop "well-architected" systems of loosely coupled,
+	    patterns-based, server-side components; to build those
+	    frameworks and services using Java and XML; to advocate
+	    and advance open source technologies
+	  </td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#cccccc" valign="top" width="100"><b>Skills</b></td>
+
+          <td valign="top" align="left">
+            <ul>
+              <li><em>Object-Oriented Design</em><br />
+		  Design Patterns (both GoF and J2EE), Unified Modeling Language (UML), Use Cases, Test First, Refactoring
+	      </li>
+
+              <li><em>Web Applications</em><br />
+		  HTML, JSP, Servlets, Struts, Tiles 
+	      </li>
+
+              <li><em>Java (5+ years)</em><br />
+		  J2EE (JMS, EJB, JMX, JNDI, JDBC), Jini, Log4j, Jakarta Commons
+	      </li>
+
+              <li><em>XML</em><br />
+		  JDOM, XSLT, XPath
+	      </li>
+
+              <li><em>Continuous Integration</em><br />
+		  Maven, CruiseControl, Ant, XDoclet, JUnit
+	      </li>
+
+              <li><em>Server Administration</em><br />
+		  JBoss, Jetty, Tomcat, Apache, Websphere
+	      </li>
+
+              <li><em>C++ (3+ years)</em><br />
+		  STL, Adaptive Communication Environment (ACE), The ACE ORB (TAO), Rogue Wave [DB]Tools.h++
+	      </li>
+
+              <li><em>Revision Control</em><br />
+		  Perforce, CVS, PVCS
+	      </li>
+
+              <li><em>Databases</em><br />
+		  Oracle, DB2
+	      </li>
+
+              <li><em>Operating Systems</em><br />
+		  Linux, Win2k, XP
+	      </li>
+
+              <li><em>Miscellaneous</em><br />
+		  [X]emacs, Perl, CORBA, MapInfo
+	      </li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#cccccc" valign="top" width="100"><b>Experience</b></td>
+
+          <td valign="top" align="left">
+            <table cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" align="left"><em>Equifax, Inc.</em>
+                -- Alpharetta, GA</td>
+
+                <td rowspan="2" valign="top" align="right"><b>(07/02-Present)</b>
+                </td>
+              </tr>
+
+              <tr>
+                <td valign="top" align="left"><b>Senior Developer</b> </td>
+              </tr>
+
+              <tr>
+                <td colspan="2">
+		  Co-leading a team responsible for the reengineering
+		  of existing mainframe processes into a more
+		  automated and distributed web-based framework to
+		  support the delivery of customized credit marketing
+		  data.  Initial prototype allowing web clients to
+		  retrieve counts of people matching various
+		  demographic criteria was developed using Struts,
+		  Tiles and JBoss.  The prototype was deployed against
+		  a one percent sample of 288 million credit records
+		  in an Oracle 9i database
+		</td>
+              </tr>
+
+              <tr>
+                <td><br />
+                 </td>
+              </tr>
+
+              <tr>
+                <td valign="top" align="left"><em>iFleet, Inc.</em> -- Roswell,
+                GA</td>
+
+                <td rowspan="2" valign="top" align="right">
+                <b>(06/94-06/02)</b></td>
+              </tr>
+
+              <tr>
+                <td valign="top" align="left"><b>Senior Engineer</b> </td>
+              </tr>
+
+              <tr>
+                <td colspan="2">
+                  Responsibilities include the design, development and
+                  deployment of large-scale, distributed systems, most to serve
+                  the special needs of inbound call centers; the evaluation of
+                  new technologies resulting in recommendations relevant to our
+                  customers' requirements; the establishment of standards and
+                  best practices for development teams; the mentoring of junior
+                  staff 
+
+                  <p><b>Projects:</b></p>
+
+                  <ul>
+                    <li>
+		      Developed the business objects to support
+		      multiple J2EE Struts-based applications,
+		      including a means for locating the service
+		      providers closest to a particular geocoded
+		      location, and a tool for selecting roadside
+		      incident data matching various criteria stored
+		      within a legacy AS/400 DB2 database (2/01-6/02)
+		    </li>
+
+                    <li>
+		      Combined the Jetty embedded web server and the
+		      JDOM document manipulation packages to form a
+		      framework for defining applications in terms of
+		      services that pass XML data back and forth via
+		      HTTP (09/00-01/01)
+		    </li>
+
+                    <li>Developed an Accounts Payable interface between a
+                    web-based application used for dispatching automotive
+                    service providers and the J.D. Edwards' One World
+                    accounting system (02/00-08/00)</li>
+
+                    <li>Built a framework to simplify the implementation of the
+                    Metadata pattern; to create, edit, and query for dynamic
+                    attributes of business objects (04/00-06/00)</li>
+
+                    <li>
+                      Designed and developed a proprietary object-relational
+                      persistence layer (08/99-09/00) 
+
+                      <ul>
+                        <li>Transparently mapped business objects to tables in
+                        an Oracle RDBMS using the Java Reflection API to
+                        encapsulate the dynamic construction and execution of
+                        the SQL statements necessary to retrieve, save, and
+                        delete those objects</li>
+
+                        <li>Provided robust support for parent-child
+                        relationships -- both aggregation and association --
+                        including automatic cascading saves and deletes of
+                        corresponding rows linked by direct foreign key or
+                        intermediate association table</li>
+
+                        <li>Combined Sun's Jini and Oracle's Advanced Queueing
+                        libraries to form a distributed cache of replicated
+                        business objects, synchronizing the JVM's using Jini
+                        event notifications when the state of any cached object
+                        changed</li>
+
+                        <li>Featured built-in support for the automatic
+                        management of concurrent access to the persistent
+                        objects using an optimistic locking strategy</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      Data Access Resource Manager (06/97-05/99) 
+
+                      <ul>
+                        <li>Co-designed a proprietary Interface Definition
+                        Language (IDL) and C++ application framework which
+                        simplified the development of peer-to-peer and
+                        client-server components that created, sent and
+                        received complex data structures comprised of STL
+                        containers</li>
+
+                        <li>Managed stateful, concurrent access to multiple
+                        Oracle database instances, using Rogue Wave DBTools.h++
+                        to invoke one or more SQL stored procedures within a
+                        single transaction corresponding to a client's method
+                        call</li>
+
+                        <li>Efficiently spread load across distributed
+                        processes, each with its own dynamically-configurable
+                        pool of operating system threads and database
+                        connections</li>
+                      </ul>
+                    </li>
+
+                    <li>Created a user-friendly wizard with Visual Basic for
+                    subscribing members to various roadside assistance and
+                    monitoring programs; also enhanced NT-based resource
+                    management components of a vehicle monitoring system using
+                    Visual C++ (1/97-5/97) (01/97-05/97)</li>
+
+                    <li>
+                      On-site consultant with Ceridian Corporation during the
+                      development of their Human Resources and Payroll
+                      application (06/94-01/97) 
+
+                      <ul>
+                        <li>Created the installation program for the
+                        application using InstallShield</li>
+
+                        <li>Adapted the chosen visual application development
+                        tool, Revelation Technologies' OpenInsight, to the
+                        MS-Windows printing API</li>
+
+                        <li>Developed an API for generating simple dialog boxes
+                        at runtime</li>
+
+                        <li>Created a hierarchical "tree control" for the
+                        OpenInsight environment</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+
+              <tr>
+                <td><br />
+                 </td>
+              </tr>
+
+              <tr>
+                <td valign="top" align="left"><em>Access Consulting, Inc.</em>
+                -- Marietta, GA</td>
+
+                <td rowspan="2" valign="top" align="right"><b>(02/91-05/94)</b>
+                </td>
+              </tr>
+
+              <tr>
+                <td valign="top" align="left"><b>Consultant</b> </td>
+              </tr>
+
+              <tr>
+                <td colspan="2">Configured, enhanced, and maintained various
+                installations of the ADD+ON Business Basic commercial
+                application suite. Worked closely with clients in retail,
+                wholesale and manufacturing industries to evolve their software
+                as their business grew.</td>
+              </tr>
+
+              <tr>
+                <td><br />
+                 </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#cccccc" valign="top" width="100"><b>Education</b></td>
+
+          <td valign="top" align="left">
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td valign="top" align="left"><em>Georgia Institute of
+                Technology</em></td>
+
+                <td rowspan="2" valign="top" align="right">
+                <b>June&nbsp;1987</b></td>
+              </tr>
+
+              <tr>
+                <td valign="top" align="left"><b>Bachelor of Industrial
+                Engineering</b></td>
+              </tr>
+
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+
+              <tr>
+                <td colspan="2">Supplemental education includes 5 full-time
+                quarters (6/90-8/91) of Computer Science courses at Southern
+                Polytechnic University in Marietta, GA, as well as 3 full-time
+                quarters (8/91-3/92) of graduate-level Computer Science courses
+                at Georgia Tech.</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
+
