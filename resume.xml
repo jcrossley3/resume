@@ -13,71 +13,78 @@
       <state>Georgia</state>
       <zip>30075</zip>
     </address>
-    <email>crossley@charter.net</email>
-    <url>http://lads.com/~jim</url>
+    <email>jim@crossleys.org</email>
+    <url>http://www.crossleys.org/~jim</url>
     <phone>770.518.4721</phone>
   </personal>
 
   <objective>
-    To develop well-architected systems of loosely-coupled,
-    patterns-based, server-side components.  To build those frameworks
-    and services using Java and XML.
+    To develop "well-architected" systems of loosely coupled,
+    patterns-based, server-side components; to build those frameworks
+    and services using Java and XML; to advocate and advance open
+    source technologies
   </objective>
   
   <skills>
     <skillset>
       <title>Object-Oriented Design</title>
+      <skill>Design Patterns (both GoF and J2EE)</skill>
       <skill>Unified Modeling Language (UML)</skill>
-      <skill>Design Patterns</skill>
       <skill>Use Cases</skill>
+      <skill>Test-driven development</skill>
       <skill>Refactoring</skill>
     </skillset>
 
     <skillset>
       <title>Web Applications</title>
-      <skill>HTML</skill>
-      <skill>Java Server Pages</skill>
-      <skill>Struts</skill>
-      <skill>WebMacro</skill>
-      <skill>Jetty</skill>
-      <skill>Apache</skill>
-      <skill>Tomcat</skill>
+      <skill>XHTML/CSS</skill>
+      <skill>Struts/Tiles</skill>
+      <skill>Velocity</skill>
     </skillset>
 
     <skillset>
       <title>Java</title>
-      <skill>J2EE (EJB/Servlets/JSP)</skill>
-      <skill>Reflection</skill>
-      <skill>JDBC</skill>
+      <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
+      <skill>Jakarta Commons</skill>
+      <skill>log4j</skill>
       <skill>Jini</skill>
     </skillset>
 
     <skillset>
       <title>XML</title>
+      <skill>dom4j</skill>
       <skill>JDOM</skill>
-      <skill>XSLT</skill>
+      <skill>Jelly</skill>
+      <skill>VoiceXML</skill>
+      <skill>XSLT/XPath</skill>
     </skillset>
 
     <skillset>
-      <title>C++</title>
-      <skill>Standard Template Library</skill>
-      <skill>Rogue Wave [DB]Tools.h++</skill>
-      <skill>Adaptive Communication Environment (ACE)</skill>
-      <skill>The ACE ORB (TAO)</skill>
-    </skillset>
-
-    <skillset>
-      <title>Databases</title>
-      <skill>Oracle</skill>
-      <skill>MS SQL Server</skill>
-      <skill>DB2</skill>
-    </skillset>
-
-    <skillset>
-      <title>Build Tools</title>
+      <title>Continuous Integration</title>
+      <skill>Maven</skill>
       <skill>Ant</skill>
       <skill>Make</skill>
-      <skill>InstallShield</skill>
+      <skill>JUnit</skill>
+      <skill>XDoclet</skill>
+      <skill>CruiseControl</skill>
+      <skill>Anthill</skill>
+    </skillset>
+
+    <skillset>
+      <title>Server Administration</title>
+      <skill>JBoss</skill>
+      <skill>Apache</skill>
+      <skill>Jetty</skill>
+      <skill>Tomcat</skill>
+      <skill>Websphere</skill>
+    </skillset>
+
+    <skillset>
+      <title>C++ (3+ years)</title>
+      <skill>Standard Template Library (STL)</skill>
+      <skill>Adaptive Communication Environment (ACE)</skill>
+      <skill>The ACE ORB (TAO)</skill>
+      <skill>Rogue Wave [DB]Tools.h++</skill>
     </skillset>
 
     <skillset>
@@ -85,20 +92,83 @@
       <skill>Perforce</skill>
       <skill>CVS</skill>
       <skill>PVCS</skill>
+      <skill>Starteam</skill>
+    </skillset>
+    
+    <skillset>
+      <title>Databases</title>
+      <skill>Oracle</skill>
+      <skill>MySQL</skill>
+      <skill>DB2</skill>
     </skillset>
 
+    <skillset>
+      <title>Operating Systems</title>
+      <skill>Linux (Gentoo, Redhat, Knoppix, Mandrake, Debian)</skill>
+      <skill>Win2k/XP</skill>
+    </skillset>
+    
     <skillset>
       <title>Miscellaneous</title>
       <skill>Emacs</skill>
       <skill>Perl</skill>
-      <skill>Linux</skill>
       <skill>CORBA</skill>
-      <skill>JBoss</skill>
-      <skill>JUnit</skill>
+      <skill>MapInfo</skill>
     </skillset>
   </skills>
 
   <employment>
+
+    <job>
+      <employer>
+	<name>CPT International, Inc.</name>
+	<location>Marietta, GA</location>
+      </employer>
+      <title>
+	Senior Technical Advisor
+      </title>
+      <period>
+	<from>
+	  <date><month>02</month><year>03</year></date>
+	</from>
+	<to>
+	  <present/>
+	</to>
+      </period>
+      <description>
+        Responsible for web architecture, mentoring, best practices,
+        and development processes.
+      </description>
+    </job>
+
+    <job>
+      <employer>
+	<name>Equifax, Inc.</name>
+	<location>Alpharetta, GA</location>
+      </employer>
+      <title>
+	Senior Developer
+      </title>
+      <period>
+	<from>
+	  <date><month>07</month><year>02</year></date>
+	</from>
+	<to>
+	  <date><month>01</month><year>03</year></date>
+	</to>
+      </period>
+      <description>
+        Co-leading a team responsible for the reengineering of
+        existing mainframe processes into a more automated and
+        distributed web-based framework to support the delivery of
+        customized credit marketing data.  Initial prototype allowing
+        web clients to retrieve counts of people matching various
+        demographic criteria was developed using Struts, Tiles and
+        JBoss.  The prototype was deployed against a one percent
+        sample of 288 million credit records in an Oracle 9i database
+      </description>
+    </job>
+
     <job>
       <employer>
 	<name>iFleet, Inc.</name>
@@ -112,7 +182,7 @@
 	  <date><month>06</month><year>94</year></date>
 	</from>
 	<to>
-	  <present/>
+	  <date><month>06</month><year>02</year></date>
 	</to>
       </period>
       <description>
@@ -128,8 +198,8 @@
       <projects>
 
 	<project>
-	  Designing and developing the business objects to support
-	  multiple J2EE web-based applications deployed using the
+	  Developed the business objects to support
+	  multiple J2EE Struts-based applications deployed using the
 	  Struts JSP application framework, including a means for
 	  locating the service providers closest to a particular
 	  geocoded location, and a tool for selecting roadside
@@ -140,7 +210,7 @@
 	      <date><month>02</month><year>01</year></date>
 	    </from>
 	    <to>
-	      <present/>
+	      <date><month>06</month><year>02</year></date>
 	    </to>
 	  </period>
 	</project>
