@@ -20,9 +20,8 @@
 
   <objective>
     To develop "well-architected" systems of loosely coupled,
-    patterns-based, server-side components; to build those frameworks
-    and services using Java and XML; to advocate and advance open
-    source technologies
+    patterns-based, server-side components; to build and advance those
+    frameworks and services using open-source technologies
   </objective>
   
   <skills>
@@ -36,15 +35,15 @@
     </skillset>
 
     <skillset>
-      <title>Java (7+ years)</title>
+      <title>Java (8+ years)</title>
       <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
-      <skill>Jakarta Commons</skill>
-      <skill>log4j</skill>
+      <skill>Jakarta Commons (HttpClient, Logging, Lang, BeanUtils, Validator, Digester)</skill>
       <skill>Jini</skill>
     </skillset>
 
     <skillset>
       <title>Web Applications</title>
+      <skill>HTTP</skill>
       <skill>XHTML/CSS</skill>
       <skill>Struts/Tiles</skill>
       <skill>Velocity</skill>
@@ -52,11 +51,11 @@
 
     <skillset>
       <title>XML</title>
+      <skill>XSLT/XPath</skill>
       <skill>dom4j</skill>
       <skill>JDOM</skill>
       <skill>Jelly</skill>
       <skill>VoiceXML</skill>
-      <skill>XSLT/XPath</skill>
     </skillset>
 
     <skillset>
@@ -72,19 +71,12 @@
 
     <skillset>
       <title>Server Administration</title>
+      <skill>Linux (Gentoo, Redhat, Knoppix, Mandrake, Debian)</skill>
+      <skill>Apache (mod_rewrite)</skill>
       <skill>JBoss</skill>
-      <skill>Apache</skill>
       <skill>Jetty</skill>
       <skill>Tomcat</skill>
       <skill>Websphere</skill>
-    </skillset>
-
-    <skillset>
-      <title>C++ (3+ years)</title>
-      <skill>Standard Template Library (STL)</skill>
-      <skill>Adaptive Communication Environment (ACE)</skill>
-      <skill>The ACE ORB (TAO)</skill>
-      <skill>Rogue Wave [DB]Tools.h++</skill>
     </skillset>
 
     <skillset>
@@ -103,18 +95,24 @@
     </skillset>
 
     <skillset>
-      <title>Operating Systems</title>
-      <skill>Linux (Gentoo, Redhat, Knoppix, Mandrake, Debian)</skill>
-      <skill>Win2k/XP</skill>
+      <title>C++ (3+ years)</title>
+      <skill>Standard Template Library (STL)</skill>
+      <skill>Adaptive Communication Environment (ACE)</skill>
+      <skill>The ACE ORB (TAO)</skill>
+      <skill>Rogue Wave [DB]Tools.h++</skill>
     </skillset>
-    
+
     <skillset>
       <title>Miscellaneous</title>
-      <skill>Emacs</skill>
-      <skill>Perl</skill>
+      <skill>XEmacs</skill>
+      <skill>Python/Jython</skill>
+      <skill>Grinder</skill>
+      <skill>Swiki</skill>
+      <skill>VoiceXML</skill>
       <skill>CORBA</skill>
       <skill>MapInfo</skill>
     </skillset>
+
   </skills>
 
   <employment>
@@ -137,7 +135,8 @@
       </period>
       <description>
         Responsible for the establishment of effective web
-        infrastructure and development best practices.
+        infrastructure, development best practices, and knowledge
+        transfer through collaboration, mentoring, and training.
       </description>
     </job>
 
@@ -165,7 +164,7 @@
         web clients to retrieve counts of people matching various
         demographic criteria was developed using Struts, Tiles and
         JBoss.  The prototype was deployed against a one percent
-        sample of 288 million credit records in an Oracle 9i database
+        sample of 288 million credit records in an Oracle 9i database.
       </description>
     </job>
 
@@ -192,7 +191,7 @@
 	new technologies resulting in recommendations relevant to our
 	customers' requirements; the establishment of standards and
 	best practices for development teams; the mentoring of junior
-	staff
+	staff.
       </description>
       
       <projects>
@@ -204,7 +203,7 @@
 	  locating the service providers closest to a particular
 	  geocoded location, and a tool for selecting roadside
 	  incident data matching various criteria stored within a
-	  legacy AS/400 DB2 database
+	  legacy AS/400 DB2 database.
 	  <period>
 	    <from>
 	      <date><month>02</month><year>01</year></date>
@@ -219,7 +218,7 @@
 	  Combined the Jetty embedded web server and the JDOM document
 	  manipulation packages to form a framework for defining
 	  applications in terms of services that pass XML data back
-	  and forth via HTTP
+	  and forth via HTTP.
 	  <period>
 	    <from>
 	      <date><month>09</month><year>00</year></date>
@@ -234,7 +233,7 @@
 	  Developed an Accounts Payable interface between a web-based
 	  application used for dispatching automotive service
 	  providers and the J.D. Edwards' One World accounting
-	  system
+	  system.
 	  <period>
 	    <from>
 	      <date><month>02</month><year>00</year></date>
@@ -248,7 +247,7 @@
 	<project>
 	  Built a framework to simplify the implementation of the
 	  Metadata pattern; to create, edit, and query for dynamic
-	  attributes of business objects
+	  attributes of business objects.
 	  <period>
 	    <from>
 	      <date><month>04</month><year>00</year></date>
@@ -261,7 +260,7 @@
 
 	<project>
 	  Designed and developed a proprietary object-relational
-	  persistence layer
+	  persistence layer.
 	  <period>
 	    <from>
 	      <date><month>08</month><year>99</year></date>
@@ -275,24 +274,24 @@
 	    Oracle RDBMS using the Java Reflection API to
 	    encapsulate the dynamic construction and execution of
 	    the SQL statements necessary to retrieve, save, and
-	    delete those objects
+	    delete those objects.
 	  </bullet>
 	  <bullet>
 	    Provided robust support for parent-child relationships --
 	    both aggregation and association -- including automatic
 	    cascading saves and deletes of corresponding rows linked
-	    by direct foreign key or intermediate association table
+	    by direct foreign key or intermediate association table.
 	  </bullet>
 	  <bullet>
 	    Combined Sun's Jini and Oracle's Advanced Queueing
 	    libraries to form a distributed cache of replicated
 	    business objects, synchronizing the JVM's using Jini event
-	    notifications when the state of any cached object changed
+	    notifications when the state of any cached object changed.
 	  </bullet>
 	  <bullet>
 	    Featured built-in support for the automatic management of
 	    concurrent access to the persistent objects using an
-	    optimistic locking strategy
+	    optimistic locking strategy.
 	  </bullet>
 	</project>
 
@@ -311,18 +310,18 @@
 	    (IDL) and C++ application framework which simplified the
 	    development of peer-to-peer and client-server components
 	    that created, sent and received complex data structures
-	    comprised of STL containers
+	    comprised of STL containers.
 	  </bullet>
 	  <bullet>
 	    Managed stateful, concurrent access to multiple Oracle
 	    database instances, using Rogue Wave DBTools.h++ to
 	    invoke one or more SQL stored procedures within a single
-	    transaction corresponding to a client's method call
+	    transaction corresponding to a client's method call.
 	  </bullet>
 	  <bullet>
 	    Efficiently spread load across distributed processes,
 	    each with its own dynamically-configurable pool of
-	    operating system threads and database connections
+	    operating system threads and database connections.
 	  </bullet>
 	</project>
 
@@ -331,7 +330,7 @@
 	  subscribing members to various roadside assistance and
 	  monitoring programs; also enhanced NT-based resource
 	  management components of a vehicle monitoring system using
-	  Visual C++ (1/97-5/97)
+	  Visual C++ (1/97-5/97).
 	  <period>
 	    <from>
 	      <date><month>01</month><year>97</year></date>
@@ -344,7 +343,7 @@
 
 	<project>
 	  On-site consultant with Ceridian Corporation during the
-	  development of their Human Resources and Payroll application
+	  development of their Human Resources and Payroll application.
 	  <period>
 	    <from>
 	      <date><month>06</month><year>94</year></date>
@@ -355,20 +354,20 @@
 	  </period>
 	  <bullet>
 	    Created the installation program for the application
-	    using InstallShield
+	    using InstallShield.
 	  </bullet>
 	  <bullet>
 	    Adapted the chosen visual application development tool,
 	    Revelation Technologies' OpenInsight, to the MS-Windows
-	    printing API
+	    printing API.
 	  </bullet>
 	  <bullet>
 	    Developed an API for generating simple dialog boxes at
-	    runtime
+	    runtime.
 	  </bullet>
 	  <bullet>
 	    Created a hierarchical "tree control" for the
-	    OpenInsight environment
+	    OpenInsight environment.
 	  </bullet>
 	</project>
 
