@@ -1,2 +1,2 @@
-java -classpath /usr/local/classes/xalan.jar:/usr/local/classes/xerces.jar org.apache.xalan.xslt.Process -IN resume.xml -XSL html.xsl -OUT resume-raw.html
-tidy -i -wrap 80 -asxml <resume-raw.html >resume.html
+xsltproc -o resume-raw.html html.xsl resume.xml
+tidy -i -wrap 80 -asxml -utf8 <resume-raw.html >resume.html
