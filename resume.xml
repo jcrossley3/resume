@@ -122,19 +122,19 @@
 
     <job>
       <employer>
-	<name>CPT International, Inc.</name>
-	<location>Marietta, GA</location>
+        <name>CPT International, Inc.</name>
+        <location>Marietta, GA</location>
       </employer>
       <title>
-	Senior Technical Advisor
+        Senior Technical Advisor
       </title>
       <period>
-	<from>
-	  <date><month>02</month><year>03</year></date>
-	</from>
-	<to>
-	  <present/>
-	</to>
+        <from>
+          <date><month>02</month><year>03</year></date>
+        </from>
+        <to>
+          <present/>
+        </to>
       </period>
       <description>
         Responsible for the establishment of effective web
@@ -146,24 +146,24 @@
       </description>
       <projects>
 
-	<project>
-	  Led the design and development of middleware to facilitate
-	  the exchange of data with 3rd-party web sites.  The service
-	  provided a very simple Java API enabling access to vendor or
-	  customer databases exposed via any text-based HTTP
-	  interface, including SOAP, XML-RPC, and HTML. Encapsulating
-	  the transformations of the clients' requests and subsequent
-	  responses using XSLT stylesheets, the project utilizes many
-	  best-of-breed open source tools including HttpClient, JTidy,
-	  and dom4j.
-	</project>
+        <project>
+          Led the design and development of middleware to facilitate
+          the exchange of data with 3rd-party web sites.  The service
+          provided a very simple Java API enabling access to vendor or
+          customer databases exposed via any text-based HTTP
+          interface, including SOAP, XML-RPC, and HTML. Encapsulating
+          the transformations of the clients' requests and subsequent
+          responses using XSLT stylesheets, the project utilizes many
+          best-of-breed open source tools including HttpClient, JTidy,
+          and dom4j.
+        </project>
 
-	<project>
+        <project>
           Developed a robust application of common Linux tools (ssh,
           rsync, at) to automate scheduled software distribution,
           configuration changes and production deployments to various
           secure networks of Linux machines.
-	</project>
+        </project>
         
         <project>
           Implemented a DMZ-style web architecture for hosting
@@ -175,14 +175,14 @@
           Grinder load-testing framework.
         </project>
         
-	<project>
+        <project>
           Championed the conversion of internal source code control
           system from Starteam to Perforce after extensive evaluation
           of multiple SCM products.  Led the effort to port the
           existing codebase and established administrative policies
           and procedures resulting in a more streamlined project
           lifecycle and minimal dependence on sys-admin personnel.
-	</project>
+        </project>
         
       </projects>
       
@@ -190,19 +190,19 @@
 
     <job>
       <employer>
-	<name>Equifax, Inc.</name>
-	<location>Alpharetta, GA</location>
+        <name>Equifax, Inc.</name>
+        <location>Alpharetta, GA</location>
       </employer>
       <title>
-	Senior Developer
+        Senior Developer
       </title>
       <period>
-	<from>
-	  <date><month>07</month><year>02</year></date>
-	</from>
-	<to>
-	  <date><month>01</month><year>03</year></date>
-	</to>
+        <from>
+          <date><month>07</month><year>02</year></date>
+        </from>
+        <to>
+          <date><month>01</month><year>03</year></date>
+        </to>
       </period>
       <description>
         Co-led a team responsible for the reengineering of
@@ -218,232 +218,232 @@
 
     <job>
       <employer>
-	<name>iFleet, Inc.</name>
-	<location>Roswell, GA</location>
+        <name>iFleet, Inc.</name>
+        <location>Roswell, GA</location>
       </employer>
       <title>
-	Senior Engineer
+        Senior Engineer
       </title>
       <period>
-	<from>
-	  <date><month>06</month><year>94</year></date>
-	</from>
-	<to>
-	  <date><month>06</month><year>02</year></date>
-	</to>
+        <from>
+          <date><month>06</month><year>94</year></date>
+        </from>
+        <to>
+          <date><month>06</month><year>02</year></date>
+        </to>
       </period>
       <description>
-	Responsibilities included the design, development and
-	deployment of large-scale, distributed systems, most to serve
-	the special needs of inbound call centers; the evaluation of
-	new technologies resulting in recommendations relevant to our
-	customers' requirements; the establishment of standards and
-	best practices for development teams; the mentoring of junior
-	staff.
+        Responsibilities included the design, development and
+        deployment of large-scale, distributed systems, most to serve
+        the special needs of inbound call centers; the evaluation of
+        new technologies resulting in recommendations relevant to our
+        customers' requirements; the establishment of standards and
+        best practices for development teams; the mentoring of junior
+        staff.
       </description>
       
       <projects>
 
-	<project>
-	  Developed the business objects to support
-	  multiple J2EE Struts-based applications deployed using the
-	  Struts JSP application framework, including a means for
-	  locating the service providers closest to a particular
-	  geocoded location, and a tool for selecting roadside
-	  incident data matching various criteria stored within a
-	  legacy AS/400 DB2 database.
-	  <period>
-	    <from>
-	      <date><month>02</month><year>01</year></date>
-	    </from>
-	    <to>
-	      <date><month>06</month><year>02</year></date>
-	    </to>
-	  </period>
-	</project>
+        <project>
+          Developed the business objects to support
+          multiple J2EE Struts-based applications deployed using the
+          Struts JSP application framework, including a means for
+          locating the service providers closest to a particular
+          geocoded location, and a tool for selecting roadside
+          incident data matching various criteria stored within a
+          legacy AS/400 DB2 database.
+          <period>
+            <from>
+              <date><month>02</month><year>01</year></date>
+            </from>
+            <to>
+              <date><month>06</month><year>02</year></date>
+            </to>
+          </period>
+        </project>
 
-	<project>
-	  Combined the Jetty embedded web server and the JDOM document
-	  manipulation packages to form a framework for defining
-	  applications in terms of services that pass XML data back
-	  and forth via HTTP.
-	  <period>
-	    <from>
-	      <date><month>09</month><year>00</year></date>
-	    </from>
-	    <to>
-	      <date><month>01</month><year>01</year></date>
-	    </to>
-	  </period>
-	</project>
+        <project>
+          Combined the Jetty embedded web server and the JDOM document
+          manipulation packages to form a framework for defining
+          applications in terms of services that pass XML data back
+          and forth via HTTP.
+          <period>
+            <from>
+              <date><month>09</month><year>00</year></date>
+            </from>
+            <to>
+              <date><month>01</month><year>01</year></date>
+            </to>
+          </period>
+        </project>
 
-	<project>
-	  Developed an Accounts Payable interface between a web-based
-	  application used for dispatching automotive service
-	  providers and the J.D. Edwards' One World accounting
-	  system.
-	  <period>
-	    <from>
-	      <date><month>02</month><year>00</year></date>
-	    </from>
-	    <to>
-	      <date><month>08</month><year>00</year></date>
-	    </to>
-	  </period>
-	</project>
+        <project>
+          Developed an Accounts Payable interface between a web-based
+          application used for dispatching automotive service
+          providers and the J.D. Edwards' One World accounting
+          system.
+          <period>
+            <from>
+              <date><month>02</month><year>00</year></date>
+            </from>
+            <to>
+              <date><month>08</month><year>00</year></date>
+            </to>
+          </period>
+        </project>
 
-	<project>
-	  Built a framework to simplify the implementation of the
-	  Metadata pattern; to create, edit, and query for dynamic
-	  attributes of business objects.
-	  <period>
-	    <from>
-	      <date><month>04</month><year>00</year></date>
-	    </from>
-	    <to>
-	      <date><month>06</month><year>00</year></date>
-	    </to>
-	  </period>
-	</project>
+        <project>
+          Built a framework to simplify the implementation of the
+          Metadata pattern; to create, edit, and query for dynamic
+          attributes of business objects.
+          <period>
+            <from>
+              <date><month>04</month><year>00</year></date>
+            </from>
+            <to>
+              <date><month>06</month><year>00</year></date>
+            </to>
+          </period>
+        </project>
 
-	<project>
-	  Designed and developed a proprietary object-relational
-	  persistence layer.
-	  <period>
-	    <from>
-	      <date><month>08</month><year>99</year></date>
-	    </from>
-	    <to>
-	      <date><month>09</month><year>00</year></date>
-	    </to>
-	  </period>
-	  <bullet>
-	    Transparently mapped business objects to tables in an
-	    Oracle RDBMS using the Java Reflection API to
-	    encapsulate the dynamic construction and execution of
-	    the SQL statements necessary to retrieve, save, and
-	    delete those objects.
-	  </bullet>
-	  <bullet>
-	    Provided robust support for parent-child relationships --
-	    both aggregation and association -- including automatic
-	    cascading saves and deletes of corresponding rows linked
-	    by direct foreign key or intermediate association table.
-	  </bullet>
-	  <bullet>
-	    Combined Sun's Jini and Oracle's Advanced Queueing
-	    libraries to form a distributed cache of replicated
-	    business objects, synchronizing the JVM's using Jini event
-	    notifications when the state of any cached object changed.
-	  </bullet>
-	  <bullet>
-	    Featured built-in support for the automatic management of
-	    concurrent access to the persistent objects using an
-	    optimistic locking strategy.
-	  </bullet>
-	</project>
+        <project>
+          Designed and developed a proprietary object-relational
+          persistence layer.
+          <period>
+            <from>
+              <date><month>08</month><year>99</year></date>
+            </from>
+            <to>
+              <date><month>09</month><year>00</year></date>
+            </to>
+          </period>
+          <bullet>
+            Transparently mapped business objects to tables in an
+            Oracle RDBMS using the Java Reflection API to
+            encapsulate the dynamic construction and execution of
+            the SQL statements necessary to retrieve, save, and
+            delete those objects.
+          </bullet>
+          <bullet>
+            Provided robust support for parent-child relationships --
+            both aggregation and association -- including automatic
+            cascading saves and deletes of corresponding rows linked
+            by direct foreign key or intermediate association table.
+          </bullet>
+          <bullet>
+            Combined Sun's Jini and Oracle's Advanced Queueing
+            libraries to form a distributed cache of replicated
+            business objects, synchronizing the JVM's using Jini event
+            notifications when the state of any cached object changed.
+          </bullet>
+          <bullet>
+            Featured built-in support for the automatic management of
+            concurrent access to the persistent objects using an
+            optimistic locking strategy.
+          </bullet>
+        </project>
 
-	<project>
-	  Data Access Resource Manager
-	  <period>
-	    <from>
-	      <date><month>06</month><year>97</year></date>
-	    </from>
-	    <to>
-	      <date><month>05</month><year>99</year></date>
-	    </to>
-	  </period>
-	  <bullet>
-	    Co-designed a proprietary Interface Definition Language
-	    (IDL) and C++ application framework which simplified the
-	    development of peer-to-peer and client-server components
-	    that created, sent and received complex data structures
-	    comprised of STL containers.
-	  </bullet>
-	  <bullet>
-	    Managed stateful, concurrent access to multiple Oracle
-	    database instances, using Rogue Wave DBTools.h++ to
-	    invoke one or more SQL stored procedures within a single
-	    transaction corresponding to a client's method call.
-	  </bullet>
-	  <bullet>
-	    Efficiently spread load across distributed processes,
-	    each with its own dynamically-configurable pool of
-	    operating system threads and database connections.
-	  </bullet>
-	</project>
+        <project>
+          Data Access Resource Manager
+          <period>
+            <from>
+              <date><month>06</month><year>97</year></date>
+            </from>
+            <to>
+              <date><month>05</month><year>99</year></date>
+            </to>
+          </period>
+          <bullet>
+            Co-designed a proprietary Interface Definition Language
+            (IDL) and C++ application framework which simplified the
+            development of peer-to-peer and client-server components
+            that created, sent and received complex data structures
+            comprised of STL containers.
+          </bullet>
+          <bullet>
+            Managed stateful, concurrent access to multiple Oracle
+            database instances, using Rogue Wave DBTools.h++ to
+            invoke one or more SQL stored procedures within a single
+            transaction corresponding to a client's method call.
+          </bullet>
+          <bullet>
+            Efficiently spread load across distributed processes,
+            each with its own dynamically-configurable pool of
+            operating system threads and database connections.
+          </bullet>
+        </project>
 
-	<project>
-	  Created a user-friendly wizard with Visual Basic for
-	  subscribing members to various roadside assistance and
-	  monitoring programs; also enhanced NT-based resource
-	  management components of a vehicle monitoring system using
-	  Visual C++ (1/97-5/97).
-	  <period>
-	    <from>
-	      <date><month>01</month><year>97</year></date>
-	    </from>
-	    <to>
-	      <date><month>05</month><year>97</year></date>
-	    </to>
-	  </period>
-	</project>
+        <project>
+          Created a user-friendly wizard with Visual Basic for
+          subscribing members to various roadside assistance and
+          monitoring programs; also enhanced NT-based resource
+          management components of a vehicle monitoring system using
+          Visual C++ (1/97-5/97).
+          <period>
+            <from>
+              <date><month>01</month><year>97</year></date>
+            </from>
+            <to>
+              <date><month>05</month><year>97</year></date>
+            </to>
+          </period>
+        </project>
 
-	<project>
-	  On-site consultant with Ceridian Corporation during the
-	  development of their Human Resources and Payroll application.
-	  <period>
-	    <from>
-	      <date><month>06</month><year>94</year></date>
-	    </from>
-	    <to>
-	      <date><month>01</month><year>97</year></date>
-	    </to>
-	  </period>
-	  <bullet>
-	    Created the installation program for the application
-	    using InstallShield.
-	  </bullet>
-	  <bullet>
-	    Adapted the chosen visual application development tool,
-	    Revelation Technologies' OpenInsight, to the MS-Windows
-	    printing API.
-	  </bullet>
-	  <bullet>
-	    Developed an API for generating simple dialog boxes at
-	    runtime.
-	  </bullet>
-	  <bullet>
-	    Created a hierarchical "tree control" for the
-	    OpenInsight environment.
-	  </bullet>
-	</project>
+        <project>
+          On-site consultant with Ceridian Corporation during the
+          development of their Human Resources and Payroll application.
+          <period>
+            <from>
+              <date><month>06</month><year>94</year></date>
+            </from>
+            <to>
+              <date><month>01</month><year>97</year></date>
+            </to>
+          </period>
+          <bullet>
+            Created the installation program for the application
+            using InstallShield.
+          </bullet>
+          <bullet>
+            Adapted the chosen visual application development tool,
+            Revelation Technologies' OpenInsight, to the MS-Windows
+            printing API.
+          </bullet>
+          <bullet>
+            Developed an API for generating simple dialog boxes at
+            runtime.
+          </bullet>
+          <bullet>
+            Created a hierarchical "tree control" for the
+            OpenInsight environment.
+          </bullet>
+        </project>
 
       </projects>
     </job>
 
     <job>
       <employer>
-	<name>Access Consulting, Inc.</name>
-	<location>Marietta, GA</location>
+        <name>Access Consulting, Inc.</name>
+        <location>Marietta, GA</location>
       </employer>
       <title>
-	Consultant
+        Consultant
       </title>
       <period>
-	<from>
-	  <date><month>02</month><year>91</year></date>
-	</from>
-	<to>
-	  <date><month>05</month><year>94</year></date>
-	</to>
+        <from>
+          <date><month>02</month><year>91</year></date>
+        </from>
+        <to>
+          <date><month>05</month><year>94</year></date>
+        </to>
       </period>
       <description>
-	Configured, enhanced, and maintained various installations of
-	the ADD+ON Business Basic commercial application suite.
-	Worked closely with clients in retail, wholesale and
-	manufacturing industries to evolve their software as their
-	business grew.
+        Configured, enhanced, and maintained various installations of
+        the ADD+ON Business Basic commercial application suite.
+        Worked closely with clients in retail, wholesale and
+        manufacturing industries to evolve their software as their
+        business grew.
       </description>
     </job>
   </employment>
@@ -454,8 +454,8 @@
       <level>Bachelor</level>
       <subject>Industrial Engineering</subject>
       <date>
-	<month>June</month>
-	<year>1987</year>
+        <month>June</month>
+        <year>1987</year>
       </date>
     </degree>
 
