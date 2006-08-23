@@ -19,10 +19,10 @@
   </personal>
 
   <objective>
-    To build beautiful things; to strike a balance between software
-    simplicity and "user freedom"; to develop services, frameworks and
-    components that are robust, adaptive and understandable; to
-    advance open standards and open-source software.
+    To build beautiful things; to strike a practical balance between
+    simplicity and utility; to develop services, frameworks and
+    components that are useful, robust, adaptive and understandable;
+    to advance open standards and open-source software.
   </objective>
   
   <skills>
@@ -36,18 +36,19 @@
     </skillset>
 
     <skillset>
-      <title>Java (8+ years)</title>
-      <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
-      <skill>Jakarta Commons (HttpClient, Logging, Lang, BeanUtils, Validator, Digester)</skill>
-      <skill>Jini</skill>
-    </skillset>
-
-    <skillset>
-      <title>Web Applications</title>
+      <title>Web Technologies</title>
       <skill>HTTP</skill>
       <skill>XHTML/CSS</skill>
       <skill>Struts/Tiles</skill>
-      <skill>Velocity</skill>
+      <skill>Spring</skill>
+      <skill>Ruby On Rails</skill>
+    </skillset>
+
+    <skillset>
+      <title>Java (9+ years)</title>
+      <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
+      <skill>Jakarta Commons (HttpClient, Logging, Lang, BeanUtils, Validator, Digester)</skill>
+      <skill>Jini</skill>
     </skillset>
 
     <skillset>
@@ -74,15 +75,16 @@
       <title>Server Administration</title>
       <skill>Linux (Gentoo, Redhat, Knoppix, Mandrake, Debian)</skill>
       <skill>Apache (mod_rewrite)</skill>
-      <skill>JBoss</skill>
-      <skill>Jetty</skill>
-      <skill>Tomcat</skill>
+      <skill>JBoss/Jetty/Tomcat</skill>
       <skill>Websphere</skill>
+      <skill>VoiceGenie</skill>
+      <skill>VMware</skill>
     </skillset>
 
     <skillset>
       <title>Revision Control</title>
       <skill>Perforce</skill>
+      <skill>Subversion</skill>
       <skill>CVS</skill>
       <skill>PVCS</skill>
       <skill>Starteam</skill>
@@ -105,13 +107,12 @@
 
     <skillset>
       <title>Miscellaneous</title>
-      <skill>XEmacs</skill>
-      <skill>Python/Jython</skill>
+      <skill>Emacs</skill>
+      <skill>Ruby</skill>
       <skill>Perl</skill>
+      <skill>Python/Jython</skill>
       <skill>Grinder</skill>
-      <skill>ssh/rsync</skill>
-      <skill>Swiki</skill>
-      <skill>VoiceXML</skill>
+      <skill>ssh/rsync/bash</skill>
       <skill>CORBA</skill>
       <skill>MapInfo</skill>
     </skillset>
@@ -142,9 +143,22 @@
         transfer through research, collaboration, mentoring, and
         training.  Introduced and encouraged the use of collaborative
         tools such as Wiki, Maven, Perforce and Anthill.
-
       </description>
       <projects>
+
+        <project>
+          Developed a highly sophisticated automated testing framework
+          for speech-enabled VoiceXML applications, capable of both
+          functional and stress testing.  The service would compile
+          scripts written in a simple DSL into VoiceXML, place the
+          outbound calls on a clustered VoiceGenie gateway and
+          tabulate the results.  It included a web proxy component
+          that would dynamically "decorate" audio files with specific
+          DTMF tones when requested by the application under test,
+          enabling the testing application to "hear" expected prompts
+          in response to specific inputs, e.g. DTMF, TTS, or audio
+          files.  The entire application was written in Ruby.
+        </project>
 
         <project>
           Led the design and development of middleware to facilitate
@@ -159,10 +173,10 @@
         </project>
 
         <project>
-          Developed a robust application of common Linux tools (ssh,
-          rsync, at) to automate scheduled software distribution,
-          configuration changes and production deployments to various
-          secure networks of Linux machines.
+          Developed a robust application of common Linux utilities
+          (ssh, rsync, at) to automate scheduled software
+          distribution, configuration changes and production
+          deployments to various secure networks of Linux machines.
         </project>
         
         <project>

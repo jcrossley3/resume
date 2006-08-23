@@ -117,7 +117,7 @@
   <xsl:template match="job">
     <tr>
       <td align="left" valign="top">
-	<em><xsl:value-of select="employer/name"/></em> -- <xsl:value-of select="employer/location"/>
+	<em><xsl:value-of select="employer/name"/></em> -- <font size="-1"><xsl:value-of select="employer/location"/></font>
       </td>
       <td align="right" valign="top" rowspan="2">
 	<b><xsl:apply-templates select="period"/></b>
