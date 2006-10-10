@@ -35,19 +35,20 @@
     </skillset>
 
     <skillset>
-      <title>Web Technologies</title>
-      <skill>HTTP</skill>
-      <skill>XHTML/CSS</skill>
-      <skill>Struts/Tiles</skill>
-      <skill>Spring</skill>
-      <skill>Ruby On Rails</skill>
-    </skillset>
-
-    <skillset>
       <title>Java (9+ years)</title>
       <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
       <skill>Jakarta Commons (HttpClient, Logging, Lang, BeanUtils, Validator, Digester)</skill>
+      <skill>Struts/Tiles</skill>
+      <skill>Spring</skill>
+      <skill>Hibernate</skill>
       <skill>Jini</skill>
+    </skillset>
+
+    <skillset>
+      <title>Web Technologies</title>
+      <skill>HTTP</skill>
+      <skill>XHTML/CSS</skill>
+      <skill>Ruby On Rails</skill>
     </skillset>
 
     <skillset>
@@ -56,6 +57,7 @@
       <skill>dom4j</skill>
       <skill>JDOM</skill>
       <skill>Jelly</skill>
+      <skill>REXML</skill>
       <skill>VoiceXML</skill>
     </skillset>
 
