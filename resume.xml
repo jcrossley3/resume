@@ -75,6 +75,7 @@
     <skillset>
       <title>Server Administration</title>
       <skill>Linux (Gentoo, Redhat, Knoppix, Mandrake, Debian)</skill>
+      <skill>Unix (Digital, Solaris)</skill>
       <skill>Apache (mod_rewrite)</skill>
       <skill>JBoss/Jetty/Tomcat</skill>
       <skill>Websphere</skill>
@@ -108,12 +109,14 @@
 
     <skillset>
       <title>Miscellaneous</title>
+      <skill>Multithreaded programming</skill>
       <skill>Emacs</skill>
       <skill>Ruby</skill>
       <skill>Perl</skill>
       <skill>Python/Jython</skill>
       <skill>Grinder</skill>
       <skill>ssh/rsync/bash</skill>
+      <skill>Asterisk</skill>
       <skill>CORBA</skill>
       <skill>MapInfo</skill>
     </skillset>
@@ -163,11 +166,12 @@
 
         <project>
           Led the design and development of middleware to facilitate
-          the exchange of data with 3rd-party web sites.  The service
-          provided a very simple Java API enabling access to vendor or
-          customer databases exposed via any text-based HTTP
-          interface, including SOAP, XML-RPC, and HTML. Encapsulating
-          the transformations of the clients' requests and subsequent
+          the exchange of data with 3rd-party web sites.  The
+          multi-threaded, high-throughput service provided a very
+          simple Java API enabling access to vendor or customer
+          databases exposed via any text-based HTTP interface,
+          including SOAP, XML-RPC, and HTML. Encapsulating the
+          transformations of the clients' requests and subsequent
           responses using XSLT stylesheets, the project utilizes many
           best-of-breed open source tools including HttpClient, JTidy,
           and dom4j.
@@ -180,6 +184,16 @@
           deployments to various secure networks of Linux machines.
         </project>
         
+        <project>
+          Developed project templates based on Maven and Struts that
+          enabled the quick construction of J2EE VoiceXML applications
+          stubbed out enough to be immediately deployable and
+          reasonably functional.  This resulted in a uniform source
+          code structure consistent across all CPT projects for Struts
+          actions, static content, project documentation, and unit
+          tests.
+        </project>
+
         <project>
           Implemented a DMZ-style web architecture for hosting
           customer voice applications.  Used clustered Apache nodes as
