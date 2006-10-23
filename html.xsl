@@ -42,8 +42,7 @@
 	      <xsl:value-of select="address/state"/>&nbsp;
 	      <xsl:value-of select="address/zip"/>
               <br/>
-              <xsl:value-of select="phone"/>
-              <br/>
+              <xsl:apply-templates select="phone"/>
               <a href="mailto:{email}"><xsl:value-of select="email"/></a>
               <br/>
               <a href="{url}"><xsl:value-of select="url"/></a>   
@@ -52,6 +51,10 @@
         </table>
       </td>
     </tr>
+  </xsl:template>
+
+  <xsl:template match="phone">
+    <xsl:value-of select="."/>&nbsp;(<xsl:value-of select="@type"/>)<br/>
   </xsl:template>
 
   <xsl:template match="objective">
