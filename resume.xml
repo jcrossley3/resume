@@ -14,7 +14,8 @@
       <zip>30075</zip>
     </address>
     <email>jim@crossleys.org</email>
-    <url>http://www.crossleys.org/~jim</url>
+    <url>http://www.linkedin.com/in/jcrossley</url>
+    <url>http://www.friendfeed.com/jcrossley3</url>
     <phone type="C">404.409.9085</phone>
     <phone type="H">770.518.4721</phone>
   </personal>
@@ -22,34 +23,42 @@
   <objective>
     To build beautiful things; to develop systems that are powerful,
     robust, and adaptive, yet comprehensible; to advance open
-    standards and open-source software.
+    standards and open-source software like Linux, Emacs, Ruby, and
+    Python
   </objective>
   
   <skills>
     <skillset>
-      <title>Object-Oriented Development</title>
-      <skill>Design Patterns (both GoF and J2EE)</skill>
-      <skill>Unified Modeling Language (UML)</skill>
+      <title>Agile Development</title>
       <skill>Use Cases</skill>
       <skill>Test-driven development</skill>
+      <skill>Iterative Design</skill>
       <skill>Refactoring</skill>
+      <skill>Build Automation</skill>
+      <skill>Continuous Integration (Continuum, CruiseControl, Anthill)</skill>
+    </skillset>
+
+    <skillset>
+      <title>Web Technologies</title>
+      <skill>XHTML</skill>
+      <skill>JavaScript/Ajax (Prototype, Scriptaculous, YUI)</skill>
+      <skill>CSS</skill>
+      <skill>RSS</skill>
+      <skill>Ruby On Rails</skill>
+      <skill>Django Python Web Framework</skill>
+      <skill>Apache mod_rewrite</skill>
     </skillset>
 
     <skillset>
       <title>Java (9+ years)</title>
       <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
-      <skill>Jakarta Commons (HttpClient, Logging, Lang, BeanUtils, Validator, Digester)</skill>
-      <skill>Struts/Tiles</skill>
+      <skill>Apache/Jakarta Projects (Struts, HttpClient, Logging, BeanUtils, Validator, Digester)</skill>
       <skill>Spring</skill>
       <skill>Hibernate</skill>
       <skill>Jini</skill>
-    </skillset>
-
-    <skillset>
-      <title>Web Technologies</title>
-      <skill>HTTP</skill>
-      <skill>XHTML/CSS</skill>
-      <skill>Ruby On Rails</skill>
+      <skill>Maven</skill>
+      <skill>Ant</skill>
+      <skill>JUnit</skill>
     </skillset>
 
     <skillset>
@@ -57,27 +66,14 @@
       <skill>XSLT/XPath</skill>
       <skill>dom4j</skill>
       <skill>JDOM</skill>
-      <skill>Jelly</skill>
       <skill>REXML</skill>
       <skill>VoiceXML</skill>
     </skillset>
 
     <skillset>
-      <title>Continuous Integration</title>
-      <skill>Maven</skill>
-      <skill>Ant</skill>
-      <skill>Make</skill>
-      <skill>JUnit</skill>
-      <skill>XDoclet</skill>
-      <skill>CruiseControl</skill>
-      <skill>Anthill</skill>
-    </skillset>
-
-    <skillset>
       <title>Server Administration</title>
-      <skill>Linux (Gentoo, Redhat, Knoppix, Mandrake, Debian)</skill>
-      <skill>Unix (Digital, Solaris)</skill>
-      <skill>Apache (mod_rewrite)</skill>
+      <skill>Linux (Ubuntu, Debian, Redhat, CentOS, Gentoo)</skill>
+      <skill>Apache</skill>
       <skill>JBoss/Jetty/Tomcat</skill>
       <skill>Websphere</skill>
       <skill>VoiceGenie</skill>
@@ -86,17 +82,16 @@
 
     <skillset>
       <title>Revision Control</title>
-      <skill>Perforce</skill>
       <skill>Subversion</skill>
+      <skill>Perforce</skill>
       <skill>CVS</skill>
-      <skill>PVCS</skill>
       <skill>Starteam</skill>
     </skillset>
     
     <skillset>
-      <title>Databases</title>
-      <skill>Oracle</skill>
+      <title>SQL Databases</title>
       <skill>MySQL</skill>
+      <skill>Oracle</skill>
       <skill>DB2</skill>
     </skillset>
 
@@ -113,18 +108,116 @@
       <skill>Multithreaded programming</skill>
       <skill>Emacs</skill>
       <skill>Ruby</skill>
-      <skill>Perl</skill>
-      <skill>Python/Jython</skill>
+      <skill>Python</skill>
       <skill>Grinder</skill>
       <skill>ssh/rsync/bash</skill>
       <skill>Asterisk</skill>
       <skill>CORBA</skill>
-      <skill>MapInfo</skill>
     </skillset>
 
   </skills>
 
   <employment>
+
+    <job>
+      <employer>
+        <name>WebSingularity, Inc.</name>
+        <location>Atlanta, GA</location>
+      </employer>
+      <title>
+        Senior Engineer
+      </title>
+      <period>
+        <from>
+          <date><month>10</month><year>07</year></date>
+        </from>
+        <to>
+          <date><month>6</month><year>08</year></date>
+        </to>
+      </period>
+
+      <description>
+        Designed and built several web components for small start-up
+        focused on local business search, social networking, and
+        recommendation engines.
+      </description>
+
+      <projects>
+        <project>
+          Bizzlr.com -- A Ruby on Rails "local search" application
+          deployed not only standalone but on Facebook, MySpace, and
+          Hi5.  The app was designed to encapsulate the differences
+          between the OpenSocial and Facebook API's so that a single
+          deployment served all four platforms.
+        </project>
+
+        <project>
+          PeoplePIM.com -- Co-designed the initial model and
+          architecture for a comprehensive social networking site that
+          included profile, contacts, messaging, calendar, local
+          business reviews, resource sharing, and more.  Also
+          developed the remote API, allowing interaction with the site
+          via both email and SMS (OpenMarket).  Built using Python and
+          Django.
+        </project>
+      </projects>
+
+    </job>
+
+    <job>
+      <employer>
+        <name>Tandberg Television, Inc.</name>
+        <location>Duluth, GA</location>
+      </employer>
+      <title>
+        Senior Software Engineer
+      </title>
+      <period>
+        <from>
+          <date><month>11</month><year>06</year></date>
+        </from>
+        <to>
+          <date><month>10</month><year>07</year></date>
+        </to>
+      </period>
+
+      <description>
+        Helped design and develop Tandberg's OpenStream Switched
+        Digital Video solution, focusing on two areas: 1) introducing
+        Maven/Continuum to simplify the automated build/release
+        process, and 2) refactoring the EJB3 entity relationships and
+        the transactional services that acted on them to minimize data
+        access and increase performance.  Using JBoss 4.0.5, Oracle
+        10, JDK 1.5 and Linux RHEL4.
+      </description>
+
+    </job>
+
+    <job>
+      <employer>
+        <name>DemandVoice, LLC</name>
+        <location>Alpharetta, GA</location>
+      </employer>
+      <title>
+        Consultant
+      </title>
+      <period>
+        <from>
+          <date><month>8</month><year>06</year></date>
+        </from>
+        <to>
+          <date><month>11</month><year>06</year></date>
+        </to>
+      </period>
+
+      <description>
+        Built SpeakFeed.net, a Ruby on Rails VoiceXML news aggregator.
+        Users subscribe to RSS feeds, and then call a special number
+        on their phone to hear their contents, using voice or DTMF
+        commands to navigate the stories.
+      </description>
+
+    </job>
 
     <job>
       <employer>
@@ -139,7 +232,7 @@
           <date><month>02</month><year>03</year></date>
         </from>
         <to>
-          <present/>
+          <date><month>10</month><year>06</year></date>
         </to>
       </period>
       <description>
@@ -311,11 +404,11 @@
 
         <project>
           Developed the business objects to support multiple J2EE
-          Struts-based applications deployed using Struts, including a
-          means for locating the service providers closest to a
-          particular geocoded location, and a tool for selecting
-          roadside incident data matching various criteria stored
-          within a legacy AS/400 DB2 database.
+          Struts-based applications, including a means for locating
+          the service providers closest to a particular geocoded
+          location, and a tool for selecting roadside incident data
+          matching various criteria stored within a legacy AS/400 DB2
+          database.
           <period>
             <from>
               <date><month>02</month><year>01</year></date>
@@ -429,8 +522,8 @@
         </project>
 
         <project>
-          On-site consultant with Ceridian Corporation during the
-          development of their Human Resources and Payroll application.
+          On-site consultant with Ceridian developing their HR/Payroll
+          application.
           <period>
             <from>
               <date><month>06</month><year>94</year></date>
@@ -439,17 +532,6 @@
               <date><month>05</month><year>97</year></date>
             </to>
           </period>
-          <bullet>
-            Created the installation program for the application
-            using InstallShield.
-          </bullet>
-          <bullet>
-            Enhanced the chosen visual application development tool,
-            Revelation Technologies' OpenInsight, in several ways,
-            including its adaptation to the MS-Windows printing API,
-            the dynamic construction of simple dialog boxes, and a
-            heirarchical tree control.
-          </bullet>
         </project>
 
       </projects>

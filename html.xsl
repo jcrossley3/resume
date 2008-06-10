@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 
 <!DOCTYPE xsl:stylesheet [
-   <!ENTITY nbsp "&#160;"> 
-   ]>
+<!ENTITY nbsp "&#160;"> 
+         ]>
 
 <xsl:stylesheet version="1.0" 
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- Make output pretty -->			
   <xsl:output method="html" indent="yes" />
@@ -13,15 +13,15 @@
   <xsl:template match="resume">
     <html>
       <head>
-	<title>Resume</title>
+        <title>Resume</title>
       </head>
       <body bgcolor="white">
-	<center>
-	  <h6><a href="resume.pdf">PDF</a>&nbsp;<a href="resume.doc">MS-Word</a></h6>
-	  <table width="640" border="0" cellpadding="5" cellspacing="5">  
-	    <xsl:apply-templates/>
-	  </table>
-	</center>
+        <center>
+          <h6><a href="resume.pdf">PDF</a>&nbsp;<a href="resume.doc">MS-Word</a></h6>
+          <table width="640" border="0" cellpadding="5" cellspacing="5">  
+            <xsl:apply-templates/>
+          </table>
+        </center>
       </body>
     </html>
   </xsl:template>
@@ -33,24 +33,28 @@
           <tr>
             <td align="center">
               <h2>
-		<xsl:value-of select="name/first"/>&nbsp;<xsl:value-of select="name/last"/>
-	      </h2>
+                <xsl:value-of select="name/first"/>&nbsp;<xsl:value-of select="name/last"/>
+              </h2>
             </td>
             <td align="right">
               <xsl:value-of select="address/street"/>,&nbsp;
-	      <xsl:value-of select="address/city"/>,&nbsp;
-	      <xsl:value-of select="address/state"/>&nbsp;
-	      <xsl:value-of select="address/zip"/>
+              <xsl:value-of select="address/city"/>,&nbsp;
+              <xsl:value-of select="address/state"/>&nbsp;
+              <xsl:value-of select="address/zip"/>
               <br/>
               <xsl:apply-templates select="phone"/>
               <a href="mailto:{email}"><xsl:value-of select="email"/></a>
               <br/>
-              <a href="{url}"><xsl:value-of select="url"/></a>   
+              <xsl:apply-templates select="url"/>
             </td>
           </tr>
         </table>
       </td>
     </tr>
+  </xsl:template>
+
+  <xsl:template match="url">
+    <a href="{.}"><xsl:value-of select="."/></a><br/>
   </xsl:template>
 
   <xsl:template match="phone">
@@ -63,7 +67,7 @@
         <b>Objective</b>
       </td>
       <td align="left" valign="top" >
-	<xsl:value-of select="normalize-space()"/>
+        <xsl:value-of select="normalize-space()"/>
       </td>
     </tr> 
   </xsl:template>
@@ -75,7 +79,7 @@
       </td>
       <td align="left" valign="top">
         <ul>
-	  <xsl:apply-templates/>
+          <xsl:apply-templates/>
         </ul>
       </td>
     </tr>
@@ -85,8 +89,8 @@
     <li>
       <em><xsl:value-of select="title"/></em><br/>
       <xsl:for-each select="skill">
-	<xsl:value-of select="normalize-space()"/>
-	<xsl:if test="not(position()=last())">, </xsl:if>
+        <xsl:value-of select="normalize-space()"/>
+        <xsl:if test="not(position()=last())">, </xsl:if>
       </xsl:for-each>
     </li>
   </xsl:template>
@@ -109,10 +113,10 @@
     <xsl:text>-</xsl:text>
     <xsl:choose>
       <xsl:when test="to/present">
-	<xsl:text>Present)</xsl:text>
+        <xsl:text>Present)</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:value-of select="to/date/month"/>/<xsl:value-of select="to/date/year"/>)
+        <xsl:value-of select="to/date/month"/>/<xsl:value-of select="to/date/year"/>)
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -120,21 +124,21 @@
   <xsl:template match="job">
     <tr>
       <td align="left" valign="top">
-	<em><xsl:value-of select="employer/name"/></em> -- <font size="-1"><xsl:value-of select="employer/location"/></font>
+        <em><xsl:value-of select="employer/name"/></em> -- <font size="-1"><xsl:value-of select="employer/location"/></font>
       </td>
       <td align="right" valign="top" rowspan="2">
-	<b><xsl:apply-templates select="period"/></b>
+        <b><xsl:apply-templates select="period"/></b>
       </td>
     </tr>
     <tr>
       <td align="left" valign="top">
-	<b><xsl:value-of select="title"/></b>
+        <b><xsl:value-of select="title"/></b>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-	<xsl:value-of select="description"/>
-	<xsl:apply-templates select="projects"/>
+        <xsl:value-of select="description"/>
+        <xsl:apply-templates select="projects"/>
       </td>
     </tr>
     <tr><td><br/></td></tr>
@@ -151,9 +155,9 @@
     <li>
       <xsl:value-of select="text()"/> <xsl:apply-templates select="period"/>
       <xsl:if test="self::node()[bullet]"> 
-	<ul>
-	  <xsl:apply-templates select="bullet"/>
-	</ul>
+        <ul>
+          <xsl:apply-templates select="bullet"/>
+        </ul>
       </xsl:if>
     </li>
   </xsl:template>
@@ -171,15 +175,15 @@
       </td>
       <td align="left" valign="top">	   
         <table border="0" cellpadding="0" cellspacing="0">
-	  <xsl:apply-templates select="degree"/>
+          <xsl:apply-templates select="degree"/>
 
-	  <tr><td>&nbsp;</td></tr>
+          <tr><td>&nbsp;</td></tr>
 
-	  <tr>
-	    <td colspan="2">
-	      <xsl:value-of select="note"/>
-	    </td>
-	  </tr>
+          <tr>
+            <td colspan="2">
+              <xsl:value-of select="note"/>
+            </td>
+          </tr>
         </table>
       </td>
     </tr> 		
@@ -188,15 +192,15 @@
   <xsl:template match="degree">
     <tr>
       <td align="left" valign="top">
-	<em><xsl:value-of select="institution"/></em>
+        <em><xsl:value-of select="institution"/></em>
       </td>
       <td align="right" valign="top" rowspan="2">
-	<b><xsl:value-of select="date/month"/>&nbsp;<xsl:value-of select="date/year"/></b>
+        <b><xsl:value-of select="date/month"/>&nbsp;<xsl:value-of select="date/year"/></b>
       </td>
     </tr>
     <tr>
       <td align="left" valign="top">
-	<b><xsl:value-of select="level"/> of <xsl:value-of select="subject"/></b> 
+        <b><xsl:value-of select="level"/> of <xsl:value-of select="subject"/></b> 
       </td> 
     </tr>
   </xsl:template>
