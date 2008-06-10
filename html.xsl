@@ -141,11 +141,10 @@
         <xsl:apply-templates select="projects"/>
       </td>
     </tr>
-    <tr><td><br/></td></tr>
+    <tr><td>&nbsp;</td></tr>
   </xsl:template>
 
   <xsl:template match="projects">
-    <p><b>Projects:</b></p>
     <ul>
       <xsl:apply-templates select="project"/>
     </ul>

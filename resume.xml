@@ -14,8 +14,7 @@
       <zip>30075</zip>
     </address>
     <email>jim@crossleys.org</email>
-    <url>http://www.linkedin.com/in/jcrossley</url>
-    <url>http://www.friendfeed.com/jcrossley3</url>
+    <url>http://www.crossleys.org/~jim</url>
     <phone type="C">404.409.9085</phone>
     <phone type="H">770.518.4721</phone>
   </personal>
@@ -42,32 +41,27 @@
       <title>Web Technologies</title>
       <skill>XHTML</skill>
       <skill>JavaScript/Ajax (Prototype, Scriptaculous, YUI)</skill>
+      <skill>Ruby On Rails</skill>
+      <skill>Django</skill>
       <skill>CSS</skill>
       <skill>RSS</skill>
-      <skill>Ruby On Rails</skill>
-      <skill>Django Python Web Framework</skill>
-      <skill>Apache mod_rewrite</skill>
+      <skill>XSLT</skill>
+      <skill>XPath</skill>
+      <skill>VoiceXML</skill>
+      <skill>mod_rewrite</skill>
     </skillset>
 
     <skillset>
       <title>Java (9+ years)</title>
       <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
-      <skill>Apache/Jakarta Projects (Struts, HttpClient, Logging, BeanUtils, Validator, Digester)</skill>
+      <skill>Apache Projects (Struts, HttpClient, Logging, BeanUtils, Validator, Digester)</skill>
       <skill>Spring</skill>
       <skill>Hibernate</skill>
-      <skill>Jini</skill>
       <skill>Maven</skill>
       <skill>Ant</skill>
-      <skill>JUnit</skill>
-    </skillset>
-
-    <skillset>
-      <title>XML</title>
-      <skill>XSLT/XPath</skill>
+      <skill>Jini</skill>
       <skill>dom4j</skill>
-      <skill>JDOM</skill>
-      <skill>REXML</skill>
-      <skill>VoiceXML</skill>
+      <skill>JUnit</skill>
     </skillset>
 
     <skillset>
@@ -79,6 +73,8 @@
       <skill>Tomcat</skill>
       <skill>Websphere</skill>
       <skill>VoiceGenie</skill>
+      <skill>Squid</skill>
+      <skill>Asterisk</skill>
       <skill>VMware</skill>
     </skillset>
 
@@ -91,30 +87,24 @@
     </skillset>
     
     <skillset>
-      <title>SQL Databases</title>
-      <skill>MySQL</skill>
-      <skill>Oracle</skill>
-      <skill>DB2</skill>
-    </skillset>
-
-    <skillset>
       <title>C++ (3+ years)</title>
-      <skill>Standard Template Library (STL)</skill>
-      <skill>Adaptive Communication Environment (ACE)</skill>
-      <skill>The ACE ORB (TAO)</skill>
-      <skill>Rogue Wave [DB]Tools.h++</skill>
+      <skill>STL</skill>
+      <skill>ACE</skill>
+      <skill>TAO</skill>
+      <skill>Rogue Wave</skill>
     </skillset>
 
     <skillset>
       <title>Miscellaneous</title>
       <skill>Multithreaded programming</skill>
+      <skill>MVC design</skill>
+      <skill>SQL</skill>
       <skill>Emacs</skill>
       <skill>Ruby</skill>
       <skill>Python</skill>
       <skill>ssh</skill>
       <skill>rsync</skill>
       <skill>Grinder</skill>
-      <skill>Asterisk</skill>
       <skill>CORBA</skill>
     </skillset>
 
@@ -371,8 +361,7 @@
           Built a "click stream" library that would record web user
           sessions by capturing their requests using a Servlet Filter
           and asynchronously transmit them via JMS to persistent
-          storage using EJB 2.1 CMP Entity beans deployed on a JBoss
-          application server.
+          storage using EJB 2.1 CMP Entity beans deployed on JBoss.
         </project>
       </projects>
     </job>
@@ -406,11 +395,10 @@
       <projects>
 
         <project>
-          Developed the business objects to support multiple J2EE
-          Struts-based applications, including a means for locating
-          the service providers closest to a particular geocoded
+          Multiple J2EE Struts MVC applications, including a means for
+          locating service providers closest to a particular geocoded
           location, and a tool for selecting roadside incident data
-          matching various criteria stored within a legacy AS/400 DB2
+          matching various criteria stored in a legacy AS/400 DB2
           database.
           <period>
             <from>
@@ -433,21 +421,6 @@
             </from>
             <to>
               <date><month>01</month><year>01</year></date>
-            </to>
-          </period>
-        </project>
-
-        <project>
-          Developed an Accounts Payable interface between a web-based
-          application used for dispatching automotive service
-          providers and the J.D. Edwards' One World accounting
-          system.
-          <period>
-            <from>
-              <date><month>02</month><year>00</year></date>
-            </from>
-            <to>
-              <date><month>08</month><year>00</year></date>
             </to>
           </period>
         </project>
@@ -505,17 +478,16 @@
             </to>
           </period>
           <bullet>
-            Co-designed a proprietary Interface Definition Language
-            (IDL) and C++ application framework which simplified the
-            development of peer-to-peer and client-server components
-            that created, sent and received complex data structures
-            comprised of STL containers.
+            Co-designed a proprietary IDL and C++ framework which
+            simplified the development of peer-to-peer and
+            client-server components that created, sent and received
+            complex data structures comprised of STL containers.
           </bullet>
           <bullet>
             Managed stateful, concurrent access to multiple Oracle
             database instances, using Rogue Wave DBTools.h++ to
             invoke one or more SQL stored procedures within a single
-            transaction corresponding to a client's method call.
+            transaction corresponding to a client's request.
           </bullet>
           <bullet>
             Efficiently spread load across distributed processes,
@@ -557,11 +529,9 @@
         </to>
       </period>
       <description>
-        Configured, enhanced, and maintained various installations of
-        the ADD+ON Business Basic commercial application suite.
-        Worked closely with clients in retail, wholesale and
-        manufacturing industries to evolve their software as their
-        business grew.
+        Configured, enhanced, and maintained various installations
+        (retail, wholesale, and manufacturing) of the ADD+ON Business
+        Basic commercial application suite.
       </description>
     </job>
   </employment>
