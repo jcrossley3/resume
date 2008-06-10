@@ -74,7 +74,9 @@
       <title>Server Administration</title>
       <skill>Linux (Ubuntu, Debian, Redhat, CentOS, Gentoo)</skill>
       <skill>Apache</skill>
-      <skill>JBoss/Jetty/Tomcat</skill>
+      <skill>JBoss</skill>
+      <skill>Jetty</skill>
+      <skill>Tomcat</skill>
       <skill>Websphere</skill>
       <skill>VoiceGenie</skill>
       <skill>VMware</skill>
