@@ -109,8 +109,9 @@
       <skill>Emacs</skill>
       <skill>Ruby</skill>
       <skill>Python</skill>
+      <skill>ssh</skill>
+      <skill>rsync</skill>
       <skill>Grinder</skill>
-      <skill>ssh/rsync/bash</skill>
       <skill>Asterisk</skill>
       <skill>CORBA</skill>
     </skillset>
