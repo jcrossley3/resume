@@ -28,40 +28,39 @@
   
   <skills>
     <skillset>
-      <title>Agile Development</title>
-      <skill>Use Cases</skill>
-      <skill>Test-driven development</skill>
-      <skill>Iterative Design</skill>
+      <title>Agile ("small-a") practices</title>
+      <skill>Test-emphatic development</skill>
+      <skill>Iterative design</skill>
       <skill>Refactoring</skill>
       <skill>Build Automation</skill>
-      <skill>Continuous Integration (Continuum, CruiseControl, Anthill)</skill>
+      <skill>Continuous Integration (Hudson, Continuum, CruiseControl, Anthill)</skill>
     </skillset>
 
     <skillset>
       <title>Web Technologies</title>
       <skill>XHTML</skill>
-      <skill>JavaScript/Ajax (Prototype, Scriptaculous, YUI)</skill>
+      <skill>JavaScript/Ajax (JQuery, Prototype, Scriptaculous, YUI)</skill>
       <skill>Ruby On Rails</skill>
       <skill>Django</skill>
       <skill>CSS</skill>
       <skill>RSS</skill>
-      <skill>XSLT</skill>
-      <skill>XPath</skill>
+      <skill>XSLT/XPath</skill>
       <skill>VoiceXML</skill>
       <skill>mod_rewrite</skill>
     </skillset>
 
     <skillset>
-      <title>Java (9+ years)</title>
+      <title>Java (12+ years)</title>
       <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
-      <skill>Apache Projects (Struts, HttpClient, Logging, BeanUtils, Validator, Digester)</skill>
       <skill>Spring</skill>
       <skill>Hibernate</skill>
+      <skill>Many Apache libraries and frameworks</skill>
       <skill>Maven</skill>
       <skill>Ant</skill>
-      <skill>Jini</skill>
-      <skill>dom4j</skill>
+      <skill>Ivy</skill>
       <skill>JUnit</skill>
+      <skill>TestNG</skill>
+      <skill>Jini</skill>
     </skillset>
 
     <skillset>
@@ -83,7 +82,7 @@
       <skill>Subversion</skill>
       <skill>Perforce</skill>
       <skill>CVS</skill>
-      <skill>Starteam</skill>
+      <skill>Git</skill>
     </skillset>
     
     <skillset>
@@ -96,21 +95,57 @@
 
     <skillset>
       <title>Miscellaneous</title>
-      <skill>Multithreaded programming</skill>
+      <skill>Concurrent programming</skill>
       <skill>MVC design</skill>
       <skill>SQL</skill>
       <skill>Emacs</skill>
       <skill>Ruby</skill>
       <skill>Python</skill>
-      <skill>ssh</skill>
-      <skill>rsync</skill>
       <skill>Grinder</skill>
       <skill>CORBA</skill>
+      <skill>Shell scripting</skill>
     </skillset>
 
   </skills>
 
   <employment>
+
+    <job>
+      <employer>
+        <name>Silverpop Systems, Inc.</name>
+        <location>Atlanta, GA</location>
+      </employer>
+      <title>
+        Senior Architect
+      </title>
+      <period>
+        <from>
+          <date><month>6</month><year>08</year></date>
+        </from>
+        <to>
+          <present/>
+        </to>
+      </period>
+
+      <description>
+        
+      </description>
+
+      <projects>
+        <project>
+          Agile Pilot Team
+        </project>
+
+        <project>
+          Inbound
+        </project>
+
+        <project>
+          Standardization of project layouts and build scripts
+        </project>
+      </projects>
+
+    </job>
 
     <job>
       <employer>
@@ -138,10 +173,10 @@
       <projects>
         <project>
           Bizzlr.com -- A Ruby on Rails "local search" application
-          deployed not only standalone but on Facebook, MySpace, and
-          Hi5.  The app was designed to encapsulate the differences
-          between the OpenSocial and Facebook API's so that a single
-          deployment served all four platforms.
+          deployed on the Facebook, MySpace, and Hi5 platforms, as
+          well as standalone.  The app was designed to encapsulate the
+          differences between the OpenSocial and Facebook API's so
+          that a single deployment served all four platforms.
         </project>
 
         <project>
@@ -232,10 +267,10 @@
         Responsible for the establishment of effective web
         infrastructure, development best practices, and knowledge
         transfer through research, collaboration, mentoring, and
-        training.  Introduced and encouraged the use of collaborative
-        tools such as Wiki, Maven, Perforce and Anthill.  Development
-        included both application and system software, with an
-        emphasis on the latter.
+        training.  Encouraged the use of collaborative tools such as
+        Wiki, Maven, Perforce and Anthill.  Development included both
+        application and system software, with an emphasis on the
+        latter.
       </description>
       <projects>
 
