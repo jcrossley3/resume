@@ -30,7 +30,7 @@
     <skillset>
       <title>Agile ("small-a") practices</title>
       <skill>Test-emphatic development</skill>
-      <skill>Iterative design</skill>
+      <skill>Iterative, collaborative design</skill>
       <skill>Refactoring</skill>
       <skill>Build Automation</skill>
       <skill>Continuous Integration (Hudson, Continuum, CruiseControl, Anthill)</skill>
@@ -75,6 +75,7 @@
       <skill>Squid</skill>
       <skill>Asterisk</skill>
       <skill>VMware</skill>
+      <skill>Puppet</skill>
     </skillset>
 
     <skillset>
@@ -116,7 +117,7 @@
         <location>Atlanta, GA</location>
       </employer>
       <title>
-        Senior Architect
+        Application Architect
       </title>
       <period>
         <from>
@@ -128,20 +129,27 @@
       </period>
 
       <description>
-        
+        Responsible for technical direction, development best
+        practices, coding standards, automated test coverage, standard
+        project layouts and build scripts, and the promotion of
+        collaborative, agile processes.
       </description>
 
       <projects>
         <project>
-          Agile Pilot Team
+          Selected to be on first "agile pilot" team, refining the
+          recommendations of an independent consultant to produce the
+          standard agile development processes rolled out to every
+          engineering team.
         </project>
 
         <project>
-          Inbound
-        </project>
-
-        <project>
-          Standardization of project layouts and build scripts
+          Selected to be on a skunkworks team to create Silverpop's
+          "inbound marketing" service, a tool used by marketers to
+          gauge consumer reaction to their products; parsing, storing
+          and rendering relevant data from Google, Bing, Yahoo,
+          Technorati, Twitter, Alexa, Quantcast and others.  It was
+          the first Ruby On Rails application developed at Silverpop.
         </project>
       </projects>
 
