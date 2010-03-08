@@ -21,9 +21,9 @@
 
   <objective>
     To build beautiful things with smart people; to develop systems
-    that are robust and adaptive, yet comprehensible; to advance open
-    standards and open-source software like Linux and Emacs; to
-    practice the craft of software development
+    that are useful, robust and adaptive, yet comprehensible; to
+    advance open standards and open-source software; to practice my
+    craft
   </objective>
   
   <skills>
@@ -42,7 +42,7 @@
 
     <skillset>
       <title>Java (12+ years)</title>
-      <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, Servlets/JSP)</skill>
+      <skill>J2EE (JMS, EJB, JMX, JNDI, JDBC, JSP)</skill>
       <skill>Spring</skill>
       <skill>Hibernate</skill>
       <skill>Many Apache libraries and frameworks</skill>
@@ -70,7 +70,6 @@
       <skill>JBoss</skill>
       <skill>Jetty</skill>
       <skill>Tomcat</skill>
-      <skill>Websphere</skill>
       <skill>VoiceGenie</skill>
       <skill>Squid</skill>
       <skill>Asterisk</skill>
