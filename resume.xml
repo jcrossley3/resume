@@ -28,15 +28,6 @@
   
   <skills>
     <skillset>
-      <title>agile ("small-a") practices</title>
-      <skill>Test-emphatic development</skill>
-      <skill>Iterative, collaborative design</skill>
-      <skill>Refactoring</skill>
-      <skill>Build Automation</skill>
-      <skill>Continuous Integration (Hudson, Continuum, CruiseControl, Anthill)</skill>
-    </skillset>
-
-    <skillset>
       <title>Web Technologies</title>
       <skill>XHTML</skill>
       <skill>JavaScript/Ajax (JQuery, Prototype, Scriptaculous, YUI)</skill>
@@ -61,6 +52,15 @@
       <skill>JUnit</skill>
       <skill>TestNG</skill>
       <skill>Jini</skill>
+    </skillset>
+
+    <skillset>
+      <title>agile ("small-a") practices</title>
+      <skill>Test-emphatic development</skill>
+      <skill>Iterative, collaborative design</skill>
+      <skill>Refactoring</skill>
+      <skill>Build Automation</skill>
+      <skill>Continuous Integration (Hudson, Continuum, CruiseControl, Anthill)</skill>
     </skillset>
 
     <skillset>
