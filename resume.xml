@@ -21,9 +21,9 @@
 
   <objective>
     To build beautiful things with smart people; to develop systems
-    that are powerful, robust, and adaptive, yet comprehensible; to
-    advance open standards and open-source software like Linux, Emacs,
-    Ruby, and Python
+    that are robust and adaptive, yet comprehensible; to advance open
+    standards and open-source software like Linux and Emacs; to
+    practice the craft of software development
   </objective>
   
   <skills>
@@ -36,8 +36,8 @@
       <skill>CSS</skill>
       <skill>RSS</skill>
       <skill>XSLT/XPath</skill>
-      <skill>VoiceXML</skill>
       <skill>mod_rewrite</skill>
+      <skill>VoiceXML</skill>
     </skillset>
 
     <skillset>
@@ -129,17 +129,17 @@
       </period>
 
       <description>
-        Responsible for technical direction, development best
-        practices, coding standards, automated test coverage, standard
-        project layouts and build scripts, and the promotion of
-        collaborative, agile processes.
+        Responsible for technical direction, mentoring, and training;
+        helped establish development best practices, including
+        automated testing, continuous integration, code reviews,
+        standard project structure and build tools.
       </description>
 
       <projects>
         <project>
           Selected to be on first "agile pilot" team, refining the
           recommendations of an independent consultant to produce the
-          standard development processes rolled out to every
+          standard agile development practices rolled out to every
           engineering team.
         </project>
 
@@ -275,10 +275,8 @@
         Responsible for the establishment of effective web
         infrastructure, development best practices, and knowledge
         transfer through research, collaboration, mentoring, and
-        training.  Encouraged the use of collaborative tools such as
-        Wiki, Maven, Perforce and Anthill.  Development included both
-        application and system software, with an emphasis on the
-        latter.
+        training.  Development included both application and system
+        software, with an emphasis on the latter.
       </description>
       <projects>
 
@@ -440,30 +438,16 @@
         <project>
           Multiple J2EE Struts MVC applications, including a means for
           locating service providers closest to a particular geocoded
-          location, and a tool for selecting roadside incident data
-          matching various criteria stored in a legacy AS/400 DB2
-          database.
-          <period>
-            <from>
-              <date><month>02</month><year>01</year></date>
-            </from>
-            <to>
-              <date><month>06</month><year>02</year></date>
-            </to>
-          </period>
-        </project>
-
-        <project>
-          Combined the Jetty embedded web server and the JDOM document
-          manipulation packages to form a framework for defining
+          location, a tool for selecting roadside incident data
+          matching various criteria, and a framework for defining
           applications in terms of services that pass XML data back
-          and forth via HTTP.
+          and forth via an embedded Jetty HTTP server.
           <period>
             <from>
               <date><month>09</month><year>00</year></date>
             </from>
             <to>
-              <date><month>01</month><year>01</year></date>
+              <date><month>06</month><year>02</year></date>
             </to>
           </period>
         </project>
@@ -502,11 +486,6 @@
             Featured built-in support for the automatic management of
             concurrent access to the persistent objects using an
             optimistic locking strategy.
-          </bullet>
-          <bullet>
-            Included an implementation of the Metadata pattern; to
-            create, edit, and query for dynamic attributes of
-            persistent business objects.
           </bullet>
         </project>
 
