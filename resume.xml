@@ -28,7 +28,7 @@
   
   <skills>
     <skillset>
-      <title>Agile ("small-a") practices</title>
+      <title>agile ("small-a") practices</title>
       <skill>Test-emphatic development</skill>
       <skill>Iterative, collaborative design</skill>
       <skill>Refactoring</skill>
@@ -139,7 +139,7 @@
         <project>
           Selected to be on first "agile pilot" team, refining the
           recommendations of an independent consultant to produce the
-          standard agile development processes rolled out to every
+          standard development processes rolled out to every
           engineering team.
         </project>
 
