@@ -17,8 +17,8 @@
       </head>
       <body bgcolor="white" style="font-family: tahoma,verdana,arial,sans-serif;" >
         <center>
-          <h6><a href="resume.pdf">PDF</a>&nbsp;<a href="resume.doc">MS-Word</a></h6>
-          <table width="640" border="0" cellpadding="5" cellspacing="5">  
+          <!-- <h6><a href="resume.pdf">PDF</a>&nbsp;<a href="resume.doc">MS-Word</a></h6> -->
+          <table width="800" border="0" cellpadding="5" cellspacing="5">  
             <xsl:apply-templates/>
           </table>
         </center>
@@ -29,7 +29,7 @@
   <xsl:template match="personal">
     <tr>
       <td colSpan="2">
-        <table width="640">
+        <table width="100%">
           <tr>
             <td align="center">
               <h2>
