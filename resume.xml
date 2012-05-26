@@ -20,10 +20,8 @@
   </personal>
 
   <objective>
-    To build beautiful things with smart people; to develop systems
-    that are useful, robust and adaptive, yet comprehensible; to
-    advance open standards and open-source software; to practice my
-    craft
+    To build beautiful things with smart people; to advance open
+    standards and open-source software; to practice my craft
   </objective>
   
   <skills>
@@ -100,6 +98,7 @@
       <skill>MVC</skill>
       <skill>SQL</skill>
       <skill>Emacs</skill>
+      <skill>Clojure</skill>
       <skill>Ruby</skill>
       <skill>Python</skill>
       <skill>Grinder</skill>
@@ -110,6 +109,29 @@
   </skills>
 
   <employment>
+
+    <job>
+      <employer>
+        <name>Red Hat, Inc.</name>
+        <location>Roswell, GA</location>
+      </employer>
+      <title>
+        Principal Software Engineer
+      </title>
+      <period>
+        <from>
+          <date><month>5</month><year>10</year></date>
+        </from>
+        <to>
+          <present/>
+        </to>
+      </period>
+
+      <description>
+        Core contributor to TorqueBox and Immutant projects.
+      </description>
+
+    </job>
 
     <job>
       <employer>
@@ -124,7 +146,7 @@
           <date><month>6</month><year>08</year></date>
         </from>
         <to>
-          <present/>
+          <date><month>5</month><year>10</year></date>
         </to>
       </period>
 
